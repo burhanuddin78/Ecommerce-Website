@@ -28,7 +28,12 @@ function App() {
         <header className='header'>
           <div className='brand'>
             <Link to='/'>
-              <img src='/images/Logo.jpg' width='200' height='60' alt='Logo' />
+              <img
+                src='../../uploads/logo.jpg'
+                width='200'
+                height='60'
+                alt='Logo'
+              />
             </Link>
           </div>
           <div className='header-links'>
