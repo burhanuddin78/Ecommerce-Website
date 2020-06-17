@@ -1,8 +1,8 @@
 const { decode } = require('jsonwebtoken');
+const config = require('config');
+const JWT_SECRET = config.get('JWT_SECRET');
 
 const jwt = require('jsonwebtoken');
-
-const JWT_SECRET = 'somethingsecret';
 
 const getToken = (user) => {
   return jwt.sign(
