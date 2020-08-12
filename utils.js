@@ -14,7 +14,7 @@ const getToken = (user) => {
     },
     JWT_SECRET,
     {
-      expiresIn: '48h',
+      expiresIn: '2h',
     }
   );
 };
