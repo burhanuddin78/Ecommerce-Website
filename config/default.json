@@ -1,4 +1,4 @@
 {
   "JWT_SECRET": "somethingsecret",
-  "mongoURI": "mongodb+srv://burhan:123@ecommerce.086by.mongodb.net/<dbname>?retryWrites=true&w=majority"
+  "mongoURI": "mongodb+srv://burhan:burhan@cluster0.uyzla.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 }
